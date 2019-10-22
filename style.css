@@ -7,7 +7,7 @@
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
-	background: #111111;
+	background: #3a1a1a;
 	color: #fff;
 	line-height: 1.4em;
 }
@@ -32,11 +32,24 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
 
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+textarea#textmessage {
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
 p {
 	font-family: Poppins-Regular;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: #c0d426;
 	margin: 0px;
 }
 
@@ -76,7 +89,7 @@ li {
 }
 
 .sh, .shspace {
-	color: #343933;
+	color: #c0d426;
 	padding-bottom: 3px;
 }
 
@@ -93,7 +106,7 @@ li {
 }
 
 .dark {
-	color: #343933 !important;
+	color: #c0d426 !important;
 }
 
 .table-check {
