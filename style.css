@@ -1,0 +1,107 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+	background: #111111;
+	color: #fff;
+	line-height: 1.4em;
+}
+
+/*---------------------------------------------*/
+a {
+	color: #fff;
+	border-bottom: 1px dashed #343933;
+  text-decoration: none;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	margin-left: 10px;
+	list-style-type: none;
+}
+
+li {
+	border-bottom: 1px dashed #fff;
+	display: block;
+}
+
+
+.container {
+  width: 800px;
+  margin: 130px 0 0 130px;
+}
+
+/* Create two equal columns that sits next to each other */
+.fl-left {
+  flex: 30%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background: #333;
+}
+.fl-right {
+  flex: 70%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background: #fff;
+}
+
+.section {
+	padding-bottom: 48px;
+}
+
+.sh, .shspace {
+	color: #343933;
+	padding-bottom: 3px;
+}
+
+.shspace {
+	letter-spacing: 4px;
+}
+
+.inner {
+	padding-left: 15px;
+}
+
+.white {
+	color: #fff !important;
+}
+
+.dark {
+	color: #343933 !important;
+}
+
+.table-check {
+	border-collapse: collapse;
+}
+.table-check td {
+	border: 1px dotted #343933;
+	padding: 5px;
+}
+
+canvas {display: block; width: 900px;}
