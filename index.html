@@ -1,97 +1,97 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <title>References</title>
-  <script src="script.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>References</title>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	
-		<div class="container">
-	
-			<div class="section">
-				<div class="sh"># Заплатников П.В.</div>
-				<div class="sh"># ИДМ-18-02</div>				
-				<div class="shspace">#------------------------------------------</div>
-					
-				<div class="sh"># <a href="https://zpav140246.github.io/#" onclick="toggleSection(&#39;lab1&#39;);return false;">Лабораторная работа №1</a></div>
-				<div class="sh"># <a href="https://zpav140246.github.io/#" onclick="toggleSection(&#39;lab2&#39;);return false;">Лабораторная работа №2</a></div>
-				<div class="sh"># <a href="https://zpav140246.github.io/#" onclick="toggleSection(&#39;lab3&#39;);return false;">Лабораторная работа №3</a></div>
-				<div class="sh"># <a href="https://zpav140246.github.io/#" onclick="toggleSection(&#39;prepareExam&#39;);return false;">Подготовка в экзамену</a></div>
-			</div>
-			
-			<div class="section" style="display: none;" id="lab1">
-				<div class="sh"># Лабораторная работа №1</div>	
-				<div class="sh"># ЭКОСИСТЕМА РАЗРАБОТКИ ПРОГРАММ С ОТКРЫТЫМ КОДОМ</div>
-				<div class="shspace">#------------------------------------------</div>
-				
-				<div class="inner">
-					Создание персональной страницы-отчета на GitHub и работа с git.<br><br>
-					<div class="sh"># Задачи:</div>	
-					<div class="inner">
-						<span class="dark">1.</span> Зарегистрироваться на GitHub. <a href="https://github.com/zpav140246" target="_blank">Страница пользователя</a><br>
-						<span class="dark">2.</span> Создать персональную веб страницу-отчет с использованием html, css, js. <a href="https://zpav140246.github.io/zpav140246.github.io" target="_blank">Персональная страница-отчет</a>. Исходный код на index.html и css.<br>
-						<span class="dark">3.</span> Загрузить персональную веб страницу-отчет в репозиторий ИДМ-18 по курсу "Интернет-технологии" на GitHub. <a href="https://github.com/stankin/inet-2018/tree/master/IDM-18-02/Zaplatnikov" target="_blank">Папка с исходными кодами в репозитории</a>.<br>
-					</div>
-				</div>
-			</div>
-			
-			<div class="section" style="display: none;" id="lab2">
-				<div class="sh"># Лабораторная работа №2</div>				
-				<div class="sh"># РАЗРАБОТКА ПРОСТОГО ВЕБ-ПРИЛОЖЕНИЯ</div>
-				<div class="shspace">#------------------------------------------</div>
-				
-				<div class="inner">
-					Проектирование и разработка индивидуального или коллективного веб-приложения (SPA) с использованием HTML, CSS, JavaScript.<br><br>
-	
-					<div class="sh"># Задачи:</div>	
-					<div class="inner">
-						<span class="dark">1.</span> Сделать разметку страницы по макету. Исходный код на <a href="https://github.com/zpav140246/zpav140246.github.io/blob/master/index.html" target="_blank">index.html</a>.<br>
-						<span class="dark">2.</span> Прописать стили страницы. Исходный код на <a href="https://github.com/zpav140246/zpav140246.github.io/blob/master/css/main.css" target="_blank">CSS</a>.<br>
-						<span class="dark">3.</span> Прописать JavaScript-функционал и реализовать матрицу и проверку на валидность трек-номера. Исходный код на <a href="https://github.com/zpav140246/zpav140246.github.io/blob/master/js/main.js" target="_blank">JavaScript</a>.<br>
-					</div>
-					
-					<br><br>
-					<canvas id="locoalien"></canvas>
-					<br><br>
-					
-					<div class="sh"># Результат - проверка трек-номера на валидность:</div>	
-					<div class="shspace">#------------------------------------------</div>
-					<div class="inner">
-						<input id="checkid" type="text" placeholder="Почтовый идентификатор">
-						<input type="button" value="Проверить" onclick="checkPost()">
-						<br><br>
-						<div id="msg">
-							
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="section" style="display: none;" id="lab3">
-				<div class="sh"># Лабораторная работа №3</div>	
-				<div class="sh"># НАСТРОЙКА ЛОКАЛЬНОЙ СЕТИ ПЕРЕДАЧИ ДАННЫХ</div>				
-				<div class="shspace">#------------------------------------------</div>
-				
-				<div class="inner">
-					Настройка коммутаторов и маршрутизаторов<br><br>
-					<a href="https://zpav140246.github.io/lr3.docx" target="_blank">Отчет по лабараторной работе №3</a>
-				</div>
-			</div>
-			
-			<div class="section" style="display: none;" id="prepareExam">
-				<div class="sh"># Подготовка в экзамену</div>				
-				<div class="shspace">#------------------------------------------</div>
-				
-				<div class="inner">
-					<a href="https://zpav140246.github.io/7bilet.docx" target="_blank">7 билет</a><br><br>
-				</div>
-			</div>
 
-		</div>
-	
+    <div class="container">
+
+        <div class="section">
+            <div class="sh"># Шараковский А.А.</div>
+            <div class="sh"># ИДМ-19-02</div>
+            <div class="shspace">#------------------------------------------</div>
+
+            <div class="sh"># <a href="#" onclick="toggleSection(&#39;lab1&#39;);return false;">Лабораторная работа №1</a></div>
+            <div class="sh"># <a href="#" onclick="toggleSection(&#39;lab2&#39;);return false;">Лабораторная работа №2</a></div>
+        </div>
+
+        <div class="section" style="display: none;" id="lab1">
+            <div class="sh"># Лабораторная работа №1</div>
+            <div class="sh"># ЭКОСИСТЕМА РАЗРАБОТКИ ПРОГРАММ С ОТКРЫТЫМ КОДОМ</div>
+            <div class="shspace">#------------------------------------------</div>
+
+            <div class="inner">
+                Создание персональной страницы-отчета на GitHub и работа с git.
+                <br>
+                <br>
+                <div class="sh"># Задачи:</div>
+                <div class="inner">
+                    <span class="dark">1.</span> Зарегистрироваться на GitHub. <a href="https://github.com/alexandrey1" target="_blank">Страница пользователя</a>
+                    <br>
+                    <span class="dark">2.</span> Создать персональную веб страницу-отчет с использованием html, css, js. <a href="https://alexandrey1.github.io/alexandrey1.github.io/" target="_blank">Персональная страница-отчет</a>. Исходный код на index.html и css.
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" style="display: none;" id="lab2">
+            <div class="sh"># Лабораторная работа №2</div>
+            <div class="sh"># РАЗРАБОТКА ПРОСТОГО ВЕБ-ПРИЛОЖЕНИЯ</div>
+            <div class="shspace">#------------------------------------------</div>
+
+            <div class="inner">
+                Проектирование и разработка индивидуального или коллективного веб-приложения (SPA) с использованием HTML, CSS, JavaScript.
+                <br>
+                <br>
+
+                <div class="sh"># Задачи:</div>
+                <div class="inner">
+                    <span class="dark">1.</span> Сделать разметку страницы по макету. Исходный код на <a href="https://github.com/alexandrey1/alexandrey1.github.io/blob/master/index.html" target="_blank">index.html</a>.
+                    <br>
+                    <span class="dark">2.</span> Прописать стили страницы. Исходный код на <a href="https://github.com/alexandrey1/alexandrey1.github.io/blob/master/style.css" target="_blank">CSS</a>.
+                    <br>
+                    <span class="dark">3.</span> Прописать JavaScript-функционал и реализовать криптографический алгоритм кодирования RSA <a href="https://github.com/alexandrey1/alexandrey1.github.io/blob/master/script.js" target="_blank">JavaScript</a>.
+                    <br>
+                </div>
+
+                <br>
+                <br>
+                <div>
+                    <h1>Алгоритм RSA.</h1>
+                    <p>RSA (аббревиатура от фамилий создателей: Rivest, Shamir и Adleman) – один из самых популярных алгоритмов шифрования.</p>
+                    <textarea id="textmessage" placeholder="the text should be here">asdasd</textarea>
+
+                    <div>
+                        <p>Простые числа</p>
+                        <span>p = </span>
+                        <input id="pvalue" value="13" />
+                        <span>q = </span>
+                        <input id="qvalue" value="7" />
+                        <br/>
+                        <button id="encryptbtn">Зашифровать</button>
+
+                        <p>Закрытый ключ</p>
+                        <span>d = </span>
+                        <input id="dvalue" value="17" />
+                        <span>n = </span>
+                        <input id="nvalue" value="91" />
+                        <br/>
+                        <button id="decryptbtn">Расшифровать</button>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
 
 </body>
+
 </html>
